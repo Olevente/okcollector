@@ -10,6 +10,12 @@
  * Copyright (c) 2021 Sallai Andras
  * 
  * GNU GPL v2
+ * 
+ * 
+ *  Refaktorálta Orosz Levente
+ * 
+ * 
+ * 2022.11.21
  */
 
 package controllers;
@@ -19,9 +25,10 @@ import views.MainWindow;
 // A MainController
 public class MainController {
     MainWindow mainWindow;
+
     public MainController(MainWindow mainWindow) {
         this.mainWindow = mainWindow;
-        
+
     }
-    
+
 }

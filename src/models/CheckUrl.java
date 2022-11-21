@@ -10,17 +10,23 @@
  * Copyright (c) 2021 Sallai Andras
  * 
  * GNU GPL v2
+ * 
+ * 
+ *  Refaktorálta Orosz Levente
+ * 
+ * 
+ * 2022.11.21
  */
 
 package models;
 
 public class CheckUrl {
-    // TODO: beírt URL ellenőrző
+
     public void check(String url) {
 
-    }//URL ellenőrzés vége
-    // TODO: ha nincs https:// akkor kiegészítjük
+    }
+
     public void expandProtocol() {
 
-    }//URL kiegészítés vége
+    }
 }

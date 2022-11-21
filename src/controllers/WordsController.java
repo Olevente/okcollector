@@ -10,6 +10,12 @@
  * Copyright (c) 2021 Sallai Andras
  * 
  * GNU GPL v2
+ * 
+ * 
+ *  Refaktorálta Orosz Levente
+ * 
+ * 
+ * 2022.11.21
  */
 
 package controllers;
@@ -18,14 +24,15 @@ import views.MainWindow;
 
 public class WordsController {
     MainWindow mainWindow;
-    //Az osztály konstruktora
+
+    // Az osztály konstruktora
     public WordsController(MainWindow mainWindow) {
         this.mainWindow = mainWindow;
-        this.mainWindow.exitButton.addActionListener(event ->{
+        this.mainWindow.exitButton.addActionListener(event -> {
             System.exit(0);
         });
     }
-    
+
 }
 
 /**
